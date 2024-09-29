@@ -43,7 +43,7 @@ struct LongPressGestureBootcamp: View {
                     .onLongPressGesture(minimumDuration: 1.0, maximumDistance: 50) { (isPressing) in
                         // start of press -> min duration
                         if isPressing {
-                            withAnimation(.easeInOut(duration: 1.0)) {
+                            withAnimation(.easeIn(duration: 1.0)) {
                                 isComplete = true
                             }
                         } else {
