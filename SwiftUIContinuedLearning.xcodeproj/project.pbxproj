@@ -11,6 +11,7 @@
 		B5434C782CA945020071306B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5434C772CA945020071306B /* ContentView.swift */; };
 		B5434C7A2CA945030071306B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5434C792CA945030071306B /* Assets.xcassets */; };
 		B5434C7D2CA945030071306B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5434C7C2CA945030071306B /* Preview Assets.xcassets */; };
+		B5434C842CA945DF0071306B /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5434C832CA945DF0071306B /* LongPressGestureBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B5434C772CA945020071306B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B5434C792CA945030071306B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5434C7C2CA945030071306B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B5434C832CA945DF0071306B /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				B5434C772CA945020071306B /* ContentView.swift */,
 				B5434C792CA945030071306B /* Assets.xcassets */,
 				B5434C7B2CA945030071306B /* Preview Content */,
+				B5434C832CA945DF0071306B /* LongPressGestureBootcamp.swift */,
 			);
 			path = SwiftUIContinuedLearning;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				B5434C782CA945020071306B /* ContentView.swift in Sources */,
 				B5434C762CA945020071306B /* SwiftUIContinuedLearningApp.swift in Sources */,
+				B5434C842CA945DF0071306B /* LongPressGestureBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
