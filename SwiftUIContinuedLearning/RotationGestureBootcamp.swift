@@ -18,9 +18,9 @@ struct RotationGestureBootcamp: View {
             .background(Color.blue.cornerRadius(10))
             .rotationEffect(angle)
             .gesture(
-                RotationGesture()
+                RotateGesture()
                     .onChanged { value in
-                        angle = value
+                        angle = value.rotation
                     }
                     .onEnded { value in
                         withAnimation(.spring()) {

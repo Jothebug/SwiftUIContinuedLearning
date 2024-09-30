@@ -25,9 +25,9 @@ struct MagnificationGestureBootcamp: View {
                 .frame(height: 300)
                 .scaleEffect(1 + currentAmount)
                 .gesture(
-                    MagnificationGesture()
+                    MagnifyGesture()
                         .onChanged { value in
-                            currentAmount = value - 1
+                            currentAmount = value.magnification - 1
                         }
                         .onEnded { value in
                             withAnimation(.spring()) {
