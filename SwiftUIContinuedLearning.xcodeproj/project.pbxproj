@@ -14,6 +14,7 @@
 		B5434C7D2CA945030071306B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5434C7C2CA945030071306B /* Preview Assets.xcassets */; };
 		B5434C842CA945DF0071306B /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5434C832CA945DF0071306B /* LongPressGestureBootcamp.swift */; };
 		B5434C862CA957DC0071306B /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5434C852CA957DC0071306B /* MagnificationGestureBootcamp.swift */; };
+		B59591F52CAC548B0034C088 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59591F42CAC548B0034C088 /* DragGestureBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B5434C7C2CA945030071306B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5434C832CA945DF0071306B /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
 		B5434C852CA957DC0071306B /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
+		B59591F42CAC548B0034C088 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				B5434C832CA945DF0071306B /* LongPressGestureBootcamp.swift */,
 				B5434C852CA957DC0071306B /* MagnificationGestureBootcamp.swift */,
 				B51D634C2CAAF2F000906B74 /* RotationGestureBootcamp.swift */,
+				B59591F42CAC548B0034C088 /* DragGestureBootcamp.swift */,
 				B5434C792CA945030071306B /* Assets.xcassets */,
 				B5434C7B2CA945030071306B /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59591F52CAC548B0034C088 /* DragGestureBootcamp.swift in Sources */,
 				B5434C782CA945020071306B /* ContentView.swift in Sources */,
 				B5434C762CA945020071306B /* SwiftUIContinuedLearningApp.swift in Sources */,
 				B5434C862CA957DC0071306B /* MagnificationGestureBootcamp.swift in Sources */,
