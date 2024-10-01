@@ -23,6 +23,7 @@ struct DragGestureBootcamp: View {
                 .frame(width: 300, height: 500)
                 .offset(offset)
                 .scaleEffect(getScaleAmount())
+                .rotationEffect(Angle(degrees: getRotationAmount()))
                 .gesture(
                     DragGesture()
                         .onChanged { value in
@@ -44,6 +45,16 @@ struct DragGestureBootcamp: View {
         let currentAmount = abs(offset.width)
         let percentage = currentAmount / max
         return 1.0 - min(percentage, 0.5) * 0.5
+    }
+    
+    func getRotationAmount() -> Double {
+        let max = UIScreen.main.bounds.width / 2
+        let currentAmount = offset.width
+        let percentage = currentAmount / max
+        let percentageAsDouble = Double(percentage)
+        let maxAngle: Double = 10
+        
+        return percentageAsDouble * maxAngle
     }
 }
 
