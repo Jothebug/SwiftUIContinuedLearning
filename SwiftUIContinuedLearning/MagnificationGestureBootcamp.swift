@@ -46,21 +46,6 @@ struct MagnificationGestureBootcamp: View {
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.horizontal)
         }
-//        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-//            .font(.title)
-//            .padding(40)
-//            .background(Color.red.cornerRadius(10))
-//            .scaleEffect(1 + currentAmount + lastAmount)
-//            .gesture(
-//                MagnificationGesture()
-//                    .onChanged { value in
-//                        currentAmount = value - 1
-//                    }
-//                    .onEnded { value in
-//                        lastAmount += currentAmount
-//                        currentAmount = 0
-//                    }
-//            )
     }
 }
 
