@@ -16,6 +16,7 @@
 		B5434C862CA957DC0071306B /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5434C852CA957DC0071306B /* MagnificationGestureBootcamp.swift */; };
 		B59591F52CAC548B0034C088 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59591F42CAC548B0034C088 /* DragGestureBootcamp.swift */; };
 		B59591F72CAC62A30034C088 /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59591F62CAC62A30034C088 /* DragGestureBootcamp2.swift */; };
+		B5987A1D2CBA70F000790F46 /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5987A1C2CBA70F000790F46 /* MultipleSheetsBootcamp.swift */; };
 		B5FF01622CB826720056EE1A /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF01612CB826720056EE1A /* ScrollViewReaderBootcamp.swift */; };
 		B5FF01642CB82AEC0056EE1A /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF01632CB82AEC0056EE1A /* GeometryReaderBootcamp.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +32,7 @@
 		B5434C852CA957DC0071306B /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 		B59591F42CAC548B0034C088 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
 		B59591F62CAC62A30034C088 /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
+		B5987A1C2CBA70F000790F46 /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
 		B5FF01612CB826720056EE1A /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		B5FF01632CB82AEC0056EE1A /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +76,7 @@
 				B59591F62CAC62A30034C088 /* DragGestureBootcamp2.swift */,
 				B5FF01612CB826720056EE1A /* ScrollViewReaderBootcamp.swift */,
 				B5FF01632CB82AEC0056EE1A /* GeometryReaderBootcamp.swift */,
+				B5987A1C2CBA70F000790F46 /* MultipleSheetsBootcamp.swift */,
 				B5434C792CA945030071306B /* Assets.xcassets */,
 				B5434C7B2CA945030071306B /* Preview Content */,
 			);
@@ -162,6 +165,7 @@
 				B59591F52CAC548B0034C088 /* DragGestureBootcamp.swift in Sources */,
 				B5434C782CA945020071306B /* ContentView.swift in Sources */,
 				B5FF01622CB826720056EE1A /* ScrollViewReaderBootcamp.swift in Sources */,
+				B5987A1D2CBA70F000790F46 /* MultipleSheetsBootcamp.swift in Sources */,
 				B5434C762CA945020071306B /* SwiftUIContinuedLearningApp.swift in Sources */,
 				B5434C862CA957DC0071306B /* MagnificationGestureBootcamp.swift in Sources */,
 				B5FF01642CB82AEC0056EE1A /* GeometryReaderBootcamp.swift in Sources */,
