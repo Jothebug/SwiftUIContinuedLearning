@@ -18,6 +18,9 @@
 		B59591F52CAC548B0034C088 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59591F42CAC548B0034C088 /* DragGestureBootcamp.swift */; };
 		B59591F72CAC62A30034C088 /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59591F62CAC62A30034C088 /* DragGestureBootcamp2.swift */; };
 		B5987A1D2CBA70F000790F46 /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5987A1C2CBA70F000790F46 /* MultipleSheetsBootcamp.swift */; };
+		B5A3C8762CBD67DE00DBF71D /* SoundBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A3C8752CBD67DE00DBF71D /* SoundBootcamp.swift */; };
+		B5A3C87A2CBD6AAB00DBF71D /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5A3C8782CBD6AAB00DBF71D /* badum.mp3 */; };
+		B5A3C87B2CBD6AAB00DBF71D /* cowMoo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5A3C8792CBD6AAB00DBF71D /* cowMoo.mp3 */; };
 		B5FF01622CB826720056EE1A /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF01612CB826720056EE1A /* ScrollViewReaderBootcamp.swift */; };
 		B5FF01642CB82AEC0056EE1A /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FF01632CB82AEC0056EE1A /* GeometryReaderBootcamp.swift */; };
 /* End PBXBuildFile section */
@@ -35,6 +38,9 @@
 		B59591F42CAC548B0034C088 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
 		B59591F62CAC62A30034C088 /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
 		B5987A1C2CBA70F000790F46 /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
+		B5A3C8752CBD67DE00DBF71D /* SoundBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBootcamp.swift; sourceTree = "<group>"; };
+		B5A3C8782CBD6AAB00DBF71D /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
+		B5A3C8792CBD6AAB00DBF71D /* cowMoo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cowMoo.mp3; sourceTree = "<group>"; };
 		B5FF01612CB826720056EE1A /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		B5FF01632CB82AEC0056EE1A /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +86,8 @@
 				B5FF01632CB82AEC0056EE1A /* GeometryReaderBootcamp.swift */,
 				B5987A1C2CBA70F000790F46 /* MultipleSheetsBootcamp.swift */,
 				B58F3A6E2CBBC6D400FB9842 /* MaskBootcamp.swift */,
+				B5A3C8752CBD67DE00DBF71D /* SoundBootcamp.swift */,
+				B5A3C8772CBD6A9D00DBF71D /* Sounds */,
 				B5434C792CA945030071306B /* Assets.xcassets */,
 				B5434C7B2CA945030071306B /* Preview Content */,
 			);
@@ -92,6 +100,15 @@
 				B5434C7C2CA945030071306B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5A3C8772CBD6A9D00DBF71D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B5A3C8782CBD6AAB00DBF71D /* badum.mp3 */,
+				B5A3C8792CBD6AAB00DBF71D /* cowMoo.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +169,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5A3C87B2CBD6AAB00DBF71D /* cowMoo.mp3 in Resources */,
+				B5A3C87A2CBD6AAB00DBF71D /* badum.mp3 in Resources */,
 				B5434C7D2CA945030071306B /* Preview Assets.xcassets in Resources */,
 				B5434C7A2CA945030071306B /* Assets.xcassets in Resources */,
 			);
@@ -172,6 +191,7 @@
 				B5987A1D2CBA70F000790F46 /* MultipleSheetsBootcamp.swift in Sources */,
 				B5434C762CA945020071306B /* SwiftUIContinuedLearningApp.swift in Sources */,
 				B5434C862CA957DC0071306B /* MagnificationGestureBootcamp.swift in Sources */,
+				B5A3C8762CBD67DE00DBF71D /* SoundBootcamp.swift in Sources */,
 				B5FF01642CB82AEC0056EE1A /* GeometryReaderBootcamp.swift in Sources */,
 				B5434C842CA945DF0071306B /* LongPressGestureBootcamp.swift in Sources */,
 				B51D634D2CAAF2F000906B74 /* RotationGestureBootcamp.swift in Sources */,
