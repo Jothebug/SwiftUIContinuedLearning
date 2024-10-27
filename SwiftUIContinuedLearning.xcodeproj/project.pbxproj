@@ -22,6 +22,7 @@
 		B5A3C87A2CBD6AAB00DBF71D /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5A3C8782CBD6AAB00DBF71D /* badum.mp3 */; };
 		B5A3C87B2CBD6AAB00DBF71D /* cowMoo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5A3C8792CBD6AAB00DBF71D /* cowMoo.mp3 */; };
 		B5A3C87D2CBD6D1F00DBF71D /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A3C87C2CBD6D1F00DBF71D /* HapticsBootcamp.swift */; };
+		B5C79B1F2CCE0FBF00832BBE /* DownloadWithEscapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C79B1E2CCE0FBF00832BBE /* DownloadWithEscapingBootcamp.swift */; };
 		B5C9B0F52CC6ACB9001A25F7 /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C9B0F42CC6ACB9001A25F7 /* BackgroundThreadBootcamp.swift */; };
 		B5C9CFC92CC0068200FD9C7C /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C9CFC82CC0068200FD9C7C /* HashableBootcamp.swift */; };
 		B5C9CFCB2CC00D2600FD9C7C /* ArraysBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C9CFCA2CC00D2600FD9C7C /* ArraysBootcamp.swift */; };
@@ -49,6 +50,7 @@
 		B5A3C8782CBD6AAB00DBF71D /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		B5A3C8792CBD6AAB00DBF71D /* cowMoo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cowMoo.mp3; sourceTree = "<group>"; };
 		B5A3C87C2CBD6D1F00DBF71D /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
+		B5C79B1E2CCE0FBF00832BBE /* DownloadWithEscapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEscapingBootcamp.swift; sourceTree = "<group>"; };
 		B5C9B0F42CC6ACB9001A25F7 /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 		B5C9CFC82CC0068200FD9C7C /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		B5C9CFCA2CC00D2600FD9C7C /* ArraysBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysBootcamp.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				B5FBBDC32CC80D92004894EA /* TypealiasBootcamp.swift */,
 				B5F9906B2CC9500200783423 /* EscapingBootcamp.swift */,
 				B591E6872CCD18C40087FCA2 /* CodableBootcamp.swift */,
+				B5C79B1E2CCE0FBF00832BBE /* DownloadWithEscapingBootcamp.swift */,
 				B5A3C8772CBD6A9D00DBF71D /* Sounds */,
 				B5434C792CA945030071306B /* Assets.xcassets */,
 				B5434C7B2CA945030071306B /* Preview Content */,
@@ -212,6 +215,7 @@
 				B5C9B0F52CC6ACB9001A25F7 /* BackgroundThreadBootcamp.swift in Sources */,
 				B5987A1D2CBA70F000790F46 /* MultipleSheetsBootcamp.swift in Sources */,
 				B5C9CFC92CC0068200FD9C7C /* HashableBootcamp.swift in Sources */,
+				B5C79B1F2CCE0FBF00832BBE /* DownloadWithEscapingBootcamp.swift in Sources */,
 				B5FBBDC22CC808A8004894EA /* WeakSelfBootcamp.swift in Sources */,
 				B5434C762CA945020071306B /* SwiftUIContinuedLearningApp.swift in Sources */,
 				B591E6882CCD18C40087FCA2 /* CodableBootcamp.swift in Sources */,
