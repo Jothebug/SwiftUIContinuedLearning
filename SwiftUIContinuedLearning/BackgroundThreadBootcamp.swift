@@ -15,13 +15,7 @@ class BackgroundThreadViewModel: ObservableObject {
         
         DispatchQueue.global(qos: .background).async {
             let newData = self.downloadData()
-            
-            print("1: \(Thread.current)")
-            print("1: \(Thread.isMainThread)")
-            
             DispatchQueue.main.async {
-                print("2: \(Thread.current)")
-                print("2: \(Thread.isMainThread)")
                 self.dataArray = newData
             }
         }
