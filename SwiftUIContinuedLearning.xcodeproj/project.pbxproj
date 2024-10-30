@@ -13,6 +13,7 @@
 		B5434C7D2CA945030071306B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5434C7C2CA945030071306B /* Preview Assets.xcassets */; };
 		B5434C842CA945DF0071306B /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5434C832CA945DF0071306B /* LongPressGestureBootcamp.swift */; };
 		B5434C862CA957DC0071306B /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5434C852CA957DC0071306B /* MagnificationGestureBootcamp.swift */; };
+		B58734092CD2981600D4871A /* FileManagerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58734082CD2981600D4871A /* FileManagerBootcamp.swift */; };
 		B58F3A6F2CBBC6D400FB9842 /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58F3A6E2CBBC6D400FB9842 /* MaskBootcamp.swift */; };
 		B591E6882CCD18C40087FCA2 /* CodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591E6872CCD18C40087FCA2 /* CodableBootcamp.swift */; };
 		B59591F52CAC548B0034C088 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59591F42CAC548B0034C088 /* DragGestureBootcamp.swift */; };
@@ -43,6 +44,7 @@
 		B5434C7C2CA945030071306B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B5434C832CA945DF0071306B /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
 		B5434C852CA957DC0071306B /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
+		B58734082CD2981600D4871A /* FileManagerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerBootcamp.swift; sourceTree = "<group>"; };
 		B58F3A6E2CBBC6D400FB9842 /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
 		B591E6872CCD18C40087FCA2 /* CodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp.swift; sourceTree = "<group>"; };
 		B59591F42CAC548B0034C088 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				B5C79B1E2CCE0FBF00832BBE /* DownloadWithEscapingBootcamp.swift */,
 				B5C79B202CCE2BD500832BBE /* DownloadWithCombineBootcamp.swift */,
 				B5C82BF12CCFD26600909989 /* TimerBootcamp.swift */,
+				B58734082CD2981600D4871A /* FileManagerBootcamp.swift */,
 				B5A3C8772CBD6A9D00DBF71D /* Sounds */,
 				B5434C792CA945030071306B /* Assets.xcassets */,
 				B5434C7B2CA945030071306B /* Preview Content */,
@@ -214,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B59591F72CAC62A30034C088 /* DragGestureBootcamp2.swift in Sources */,
+				B58734092CD2981600D4871A /* FileManagerBootcamp.swift in Sources */,
 				B58F3A6F2CBBC6D400FB9842 /* MaskBootcamp.swift in Sources */,
 				B5C9CFCB2CC00D2600FD9C7C /* ArraysBootcamp.swift in Sources */,
 				B59591F52CAC548B0034C088 /* DragGestureBootcamp.swift in Sources */,
