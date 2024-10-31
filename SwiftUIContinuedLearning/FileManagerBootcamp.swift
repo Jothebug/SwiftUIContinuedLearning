@@ -10,20 +10,63 @@ import SwiftUI
 class LocalFileManager {
     
     static let instance = LocalFileManager()
+    let folderName = "MyApp_Images"
     
-    func saveImage(image: UIImage, name: String) {
+    init() {
+        createFolderIfNeeded()
+    }
+    
+    func createFolderIfNeeded() {
         guard
-            let data = image.jpegData(compressionQuality: 1.0),
-            let path = getPathForImage(name: name) else {
-            print("error getting data.")
+            let path = FileManager
+                .default
+                .urls(for: .cachesDirectory, in: .userDomainMask)
+                .first?
+                .appendingPathComponent(folderName)
+                .path else {
+            return
+        }
+        
+        if !FileManager.default.fileExists(atPath: path) {
+            do {
+                try FileManager.default.createDirectory(atPath: path, withIntermediateDirectories: true, attributes: nil)
+                print("Success creating folder.")
+            } catch let error {
+                print("Error creating folder. \(error)")
+            }
+        }
+    }
+    
+    func deleteFolder() {
+        guard
+            let path = FileManager
+                .default
+                .urls(for: .cachesDirectory, in: .userDomainMask)
+                .first?
+                .appendingPathComponent(folderName)
+                .path else {
             return
         }
         
         do {
-            try data.write(to: path)
-            print("success saving")
+            try FileManager.default.removeItem(atPath: path)
+            print("Successfully deleting folder.")
         } catch let error {
-            print("error saving \(error)")
+           print("Error deleting folder. \(error)")
+        }
+    }
+    
+    func saveImage(image: UIImage, name: String) -> String {
+        guard
+            let data = image.jpegData(compressionQuality: 1.0),
+            let path = getPathForImage(name: name) else {
+            return "Error getting data."
+        }
+        do {
+            try data.write(to: path)
+            return "Success saving!"
+        } catch let error {
+            return "Error saving. \(error)"
         }
     }
     
@@ -37,19 +80,20 @@ class LocalFileManager {
         return UIImage(contentsOfFile: path)
     }
     
-    func deleteImage(name: String) {
+    func deleteImage(name: String) -> String {
         guard
-            let path = getPathForImage(name: name),
-            FileManager.default.fileExists(atPath: path.path) else {
-            print("Failed in deleteImage")
-            return
+            let path = getPathForImage(name: name)?.path,
+            FileManager.default.fileExists(atPath: path) else {
+            return "Error getting path."
         }
         
+        print("deleteImage \(path)")
+        
         do {
-            try FileManager.default.removeItem(at: path)
-            print("Success delete")
+            try FileManager.default.removeItem(atPath: path)
+            return "Successfully delete"
         } catch let error {
-            print("Error deleting image. \(error)")
+           return "Error deleting image. \(error)"
         }
     }
     
@@ -59,6 +103,7 @@ class LocalFileManager {
                 .default
                 .urls(for: .cachesDirectory, in: .userDomainMask)
                 .first?
+                .appendingPathComponent(folderName)
                 .appendingPathExtension("\(name).jpg") else {
             print("error getting path")
             return nil
@@ -76,7 +121,7 @@ class FileManagerViewModel: ObservableObject {
     @Published var infoMessage: String = ""
     
     init() {
-        getImageFromAssetFolder1()
+        getImageFromAssetFolder()
     }
     
     func getImageFromAssetFolder() {
@@ -89,11 +134,12 @@ class FileManagerViewModel: ObservableObject {
     
     func saveImage() {
         guard let image = image else {return}
-        manager.saveImage(image: image, name: imageName)
+       infoMessage = manager.saveImage(image: image, name: imageName)
     }
     
     func deleteImage() {
-        manager.deleteImage(name: imageName)
+        infoMessage = manager.deleteImage(name: imageName)
+        manager.deleteFolder()
     }
 }
 
@@ -136,6 +182,12 @@ struct FileManagerBootcamp: View {
                             .cornerRadius(10)
                     })
                 }
+                
+                Text(vm.infoMessage)
+                    .font(.largeTitle)
+                    .fontWeight(.semibold)
+                    .foregroundColor(.orange)
+                
                 Spacer()
             }
             .navigationTitle("File Manager")
