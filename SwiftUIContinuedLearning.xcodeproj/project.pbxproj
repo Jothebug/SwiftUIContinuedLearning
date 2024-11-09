@@ -20,6 +20,7 @@
 		B59591F72CAC62A30034C088 /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59591F62CAC62A30034C088 /* DragGestureBootcamp2.swift */; };
 		B59805452CD3EDA1007D3CF8 /* CacheBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59805442CD3EDA1007D3CF8 /* CacheBootcamp.swift */; };
 		B5987A1D2CBA70F000790F46 /* MultipleSheetsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5987A1C2CBA70F000790F46 /* MultipleSheetsBootcamp.swift */; };
+		B59C2D942CDF19F500913F4B /* AccessibilityColorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59C2D932CDF19F500913F4B /* AccessibilityColorBootcamp.swift */; };
 		B5A3C8762CBD67DE00DBF71D /* SoundBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A3C8752CBD67DE00DBF71D /* SoundBootcamp.swift */; };
 		B5A3C87A2CBD6AAB00DBF71D /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5A3C8782CBD6AAB00DBF71D /* badum.mp3 */; };
 		B5A3C87B2CBD6AAB00DBF71D /* cowMoo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5A3C8792CBD6AAB00DBF71D /* cowMoo.mp3 */; };
@@ -53,6 +54,7 @@
 		B59591F62CAC62A30034C088 /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
 		B59805442CD3EDA1007D3CF8 /* CacheBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheBootcamp.swift; sourceTree = "<group>"; };
 		B5987A1C2CBA70F000790F46 /* MultipleSheetsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBootcamp.swift; sourceTree = "<group>"; };
+		B59C2D932CDF19F500913F4B /* AccessibilityColorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityColorBootcamp.swift; sourceTree = "<group>"; };
 		B5A3C8752CBD67DE00DBF71D /* SoundBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBootcamp.swift; sourceTree = "<group>"; };
 		B5A3C8782CBD6AAB00DBF71D /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
 		B5A3C8792CBD6AAB00DBF71D /* cowMoo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cowMoo.mp3; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				B5C82BF12CCFD26600909989 /* TimerBootcamp.swift */,
 				B58734082CD2981600D4871A /* FileManagerBootcamp.swift */,
 				B5C534672CDD0B2B00C909E6 /* AccessibilityTextBootcamp.swift */,
+				B59C2D932CDF19F500913F4B /* AccessibilityColorBootcamp.swift */,
 				B5A3C8772CBD6A9D00DBF71D /* Sounds */,
 				B5434C792CA945030071306B /* Assets.xcassets */,
 				B5434C7B2CA945030071306B /* Preview Content */,
@@ -236,6 +239,7 @@
 				B5C79B212CCE2BD500832BBE /* DownloadWithCombineBootcamp.swift in Sources */,
 				B5434C762CA945020071306B /* SwiftUIContinuedLearningApp.swift in Sources */,
 				B5C82BF22CCFD26600909989 /* TimerBootcamp.swift in Sources */,
+				B59C2D942CDF19F500913F4B /* AccessibilityColorBootcamp.swift in Sources */,
 				B591E6882CCD18C40087FCA2 /* CodableBootcamp.swift in Sources */,
 				B59805452CD3EDA1007D3CF8 /* CacheBootcamp.swift in Sources */,
 				B5434C862CA957DC0071306B /* MagnificationGestureBootcamp.swift in Sources */,
